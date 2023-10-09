@@ -1,0 +1,59 @@
+.burg {
+  color: var(--blue, #1463ff);
+  background: #f2f4f5;
+  padding: 1rem;
+  border-bottom-left-radius: 0.79744rem 0.79744rem 0rem 0rem;
+  border-bottom-right-radius: 0.79744rem 0.79744rem 0rem 0rem;
+}
+
+.name {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  background: var(--chun-li-blue-100, #e8eefb);
+  padding: 0.001rem;
+  padding-left: 1rem;
+  color: var(--blue, #1463ff);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.pdf {
+  padding-left: 1rem;
+  padding-right: 0.32rem;
+}
+.footer {
+  margin-top: 1rem;
+}
+.footerText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerTitle {
+  color: var(--blue, #1463ff);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.receipt-modal-download-button {
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.receipt-actions-div {
+  display: flex;
+  justify-content: center;
+}
